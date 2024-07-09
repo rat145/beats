@@ -1,0 +1,93 @@
+/* Inter: CSS class */
+.inter-light {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
+.inter-semibold {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
+.inter-bold {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
+.inter-black {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
+
+/* Body */
+body {
+    background-color: #0f0f10;
+    color: #fff;
+}
+
+/* Navbar */
+.nav-right ul li {
+    list-style-type: none;
+    font-size: 16px;
+}
+
+.nav-right a {
+    text-decoration: none;
+    color: #fff;;
+}
+
+#shop-btn {
+    padding: 8px 30px;
+    background-color: #1e1e21;
+    border-radius: 8px;
+    border-top: 2px solid #5b5b5c;
+    border-left: 2px solid #5b5b5c;
+}
+
+.nav-right ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.nav-right {
+    width: 40%;
+}
+
+.nav-left {
+    width: 30%;
+}
+
+.nav-container {
+    width: 100%;
+    padding-top: 20px;
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
